@@ -79,3 +79,15 @@ text-align: center;
   font-style: oblique;
   margin: 10px 0px;
 }
+
+@media (max-width: 600px) {
+  .product-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .product-container {
+    width: 40%;
+  }
+}
